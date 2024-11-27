@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CauseEffect</title>
+    <style>
+        .highlighted {
+            background-color: lightblue;
+        }
+        .person-name {
+            cursor: pointer;
+            padding: 5px;
+            margin: 5px;
+        }
+        .details-pane {
+            padding: 10px;
+            border-left: 1px solid #ccc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="summary-pane">
+        <ul id="person-list"></ul>
+    </div>
+
+    <div id="details-pane" class="details-pane">
+        <h2>Detalhes</h2>
+        <p id="full-name"></p>
+        <p id="address"></p>
+        <p id="phone"></p>
+        <p id="birthday"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
